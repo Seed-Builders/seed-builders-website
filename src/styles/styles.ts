@@ -95,7 +95,7 @@ export const Styles = createGlobalStyle`
         outline: none;
     }
 
-    .about-block-image svg {
+    .nutrition-block-image svg {
         text-align: center;
     }
 

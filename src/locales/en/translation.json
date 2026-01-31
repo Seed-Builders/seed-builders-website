@@ -1,8 +1,9 @@
 {
-  "About": "About",
+  "Nutrition": "Nutrition",
   "Policy": "Policy",
-  "Mission": "Mission",
-  "Product": "Product",
+  "Supplements": "Supplements",
+  "Training": "Training",
+  "Sleep": "Sleep",
   "Tell us everything": "Tell us everything",
   "Contact": "Contact",
   "Do you have any question? Feel free to reach out.": "Do you have any question? Feel free to reach out.",
@@ -24,5 +25,7 @@
   "Name" : "Name",
   "Your Name": "Your Name",
   "Email" : "Email",
-  "Your Email": "Your Email"
+  "Your Email": "Your Email",
+  
+  "Contact Us": "Contact Us"
 }

@@ -1,8 +1,9 @@
 {
-  "About": "Acerca de",
+  "Nutrition": "Nutrición",
   "Policy": "Politica",
-  "Mission": "Misión",
-  "Product": "Producto",
+  "Supplements": "Suplementos",
+  "Training": "Trainingo",
+  "Sleep": "Sueño",
   "Tell us everything": "Cuéntanos todo",
   "Contact": "Contacto",
   "Do you have any question? Feel free to reach out.": "¿Tienes alguna pregunta? No dude en contactarnos",
@@ -24,5 +25,7 @@
   "Name" : "Nombre",
   "Your Name": "Tu nombre",
   "Email" : "Email",
-  "Your Email": "Tu correo electrónico"
+  "Your Email": "Tu correo electrónico",
+
+  "Contact Us": "Contacta Con Nosotros"
 }
