@@ -123,7 +123,7 @@ const Footer = ({ t }: { t: TFunction }) => {
             <NavLink to="/">
               <LogoContainer>
                 <SvgIcon
-                  src="logo.png"
+                  src="SeedBuilders.svg"
                   aria-label="homepage"
                   width="101px"
                   height="101px"

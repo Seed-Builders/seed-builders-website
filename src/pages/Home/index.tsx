@@ -28,11 +28,17 @@ const Home = ({ t }: { t: TFunction }) => {
         icon="developer.svg"
         id="intro"
       />
+
+
+
       {/* <MiddleBlock
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}
         button={MiddleBlockContent.button}
       /> */}
+
+
+
       <ContentBlock
         direction="left"
         title={NutritionContent.title}
@@ -40,22 +46,16 @@ const Home = ({ t }: { t: TFunction }) => {
         // section={NutritionContent.section}
         icon="graphs.svg"
         id="nutrition"
+
+        recommendationHeader={t("We Recommend Nutrition")}
+        listItems={[
+          t("Eating TONS of seeds"),
+          t("Eating lots of low starch vegetables"),
+          t("Eating some fruit"),
+          t("Eating a small amount of starchy foods"),
+          t("Eating little to no added sugar"),
+        ]}
       />
-
-       <p>
-        {/* {t("We Recommend Sleep")} */}
-        We Recommend:
-      </p>
-
-      <ul>
-        <li>{"Eating TONS of seeds."}</li>
-        <li>{"Eating lots of low starch vegetables."}</li>
-        <li>{"Eating some fruit."}</li>
-        <li>{"Eating a small amount of starchy foods."}</li>
-        <li>{"Eating little to no added sugar."}</li>
-        
-      </ul>
-
 
       <ContentBlock
         direction="right"
@@ -63,22 +63,15 @@ const Home = ({ t }: { t: TFunction }) => {
         content={SupplementsContent.text}
         icon="product-launch.svg"
         id="supplements"
+
+        recommendationHeader={t("We Recommend Supplements")}
+        listItems={[
+          t("Vitamins..."),
+          t("Amino Acids..."),
+          t("Creatine..."),
+          t("DHA..."),
+        ]}
       />
-
-      <p>
-        {/* {t("We Recommend Sleep")} */}
-        We Recommend:
-      </p>
-
-      <ul>
-        <li>{"Vitamins, especially those that are hard to get on a vegan diet: B12, Vitamin D, Iron, Calcium, and Iodine,"}</li>
-        <li>{"Amino Acids: Supplementing with Lysine and Leucine helps the body more fully absorb seed protein to synthesize muscle."}</li>
-        <li>{"Creatine: to help your muscles make energy faster and recover better."}</li>
-        <li>{"DHA & EPA Omega 3s (Usually in the form of fish oil, krill oil, or cod liver oil)"}</li>
-        {/* <li>{t("8 - 10 Hours of Sleep Per Day")}</li>
-        <li>{t("Sleep In a Dark, Cool Place")}</li>
-        <li>{t("Keep a Consistent Schedule")}</li> */}
-      </ul>
 
       <ContentBlock
         direction="left"
@@ -86,20 +79,16 @@ const Home = ({ t }: { t: TFunction }) => {
         content={t("Training Text")}
         icon="waving.svg"
         id="training"
+        // Pass the list and the recommendation header as props
+        recommendationHeader={t("We Recommend Training")}
+        listItems={[
+          t("Olympic Weightlifting"),
+          t("CrossFit"),
+          t("Powerlifting"),
+          t("Yoga"),
+          t("Sports"),
+        ]}
       />
-
-      <p>
-        {t("We Recommend Training")}
-      </p>
-
-      <ul>
-        <li>{t("Olympic Weightlifting")}</li>
-        <li>{t("CrossFit")}</li>
-        <li>{t("Powerlifting")}</li>
-        <li>{t("Yoga")}</li>
-        <li>{t("Sports")}</li>
-      </ul>
-
 
       <ContentBlock
         direction="right"
@@ -107,27 +96,24 @@ const Home = ({ t }: { t: TFunction }) => {
         content={t("Sleep Text")}
         icon="waving.svg"
         id="sleep"
+
+        recommendationHeader={t("We Recommend Sleep")}
+        listItems={[
+          t("8 - 10 hours of sleep per day"),
+          t("Sleep in a cool, dark room"),
+          t("Keep a consistent schedule")
+        ]}
       />
-
-      <p>
-        {t("We Recommend Sleep")}
-      </p>
-
-      <ul>
-        <li>{t("8 - 10 Hours of Sleep Per Day")}</li>
-        <li>{t("Sleep In a Dark, Cool Place")}</li>
-        <li>{t("Keep a Consistent Schedule")}</li>
-      </ul>
 
       {/* <Contact
         title={t("Contact Us")}
         content={t("Send us a message and we'll get back to you soon!")}
         id="contact"
       /> */}
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+      <br />
+      <br />
+      <br />
+      <br />
     </Container>
   );
 };

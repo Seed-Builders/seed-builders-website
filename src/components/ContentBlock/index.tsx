@@ -14,6 +14,8 @@ import {
   MinPara,
   StyledRow,
   ButtonWrapper,
+  RecommendationTitle,
+  StyledList,
 } from "./styles";
 
 const ContentBlock = ({
@@ -25,6 +27,8 @@ const ContentBlock = ({
   t,
   id,
   direction,
+  listItems,
+  recommendationHeader
 }: ContentBlockProps) => {
   const scrollTo = (id: string) => {
     const element = document.getElementById(id) as HTMLDivElement;
@@ -49,6 +53,18 @@ const ContentBlock = ({
             <ContentWrapper>
               <h6>{t(title)}</h6>
               <Content>{t(content)}</Content>
+
+
+              {listItems && (
+                <>
+                  <RecommendationTitle>{recommendationHeader}</RecommendationTitle>
+                  <StyledList>
+                    {listItems.map((item, i) => <li key={i}>{item}</li>)}
+                  </StyledList>
+                </>
+              )}
+
+
               {direction === "right" ? (
                 <ButtonWrapper>
                   {typeof button === "object" &&

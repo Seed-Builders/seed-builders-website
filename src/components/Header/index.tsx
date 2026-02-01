@@ -3,7 +3,7 @@ import { Row, Col, Drawer } from "antd";
 import { withTranslation, TFunction } from "react-i18next";
 import Container from "../../common/Container";
 import { SvgIcon } from "../../common/SvgIcon";
-import { Button } from "../../common/Button";
+import { Button, LilButton } from "../../common/Button";
 import {
   HeaderSection,
   LogoContainer,
@@ -47,10 +47,20 @@ const Header = ({ t }: { t: TFunction }) => {
         </CustomNavLinkSmall>
         <CustomNavLinkSmall
           style={{ width: "180px" }}
-          onClick={() => scrollTo("contact")}
+          onClick={() => window.location.href = "tel:+19177453133"}
         >
           <Span>
-            <Button>{t("Contact")}</Button>
+            <LilButton>{
+              <div style={{ color: "white" }}>
+                <SvgIcon
+                  src="phone.svg"
+                  width="24"
+                  height="24"
+                />
+              </div>
+            }
+
+            </LilButton>
           </Span>
         </CustomNavLinkSmall>
       </>
@@ -62,7 +72,11 @@ const Header = ({ t }: { t: TFunction }) => {
       <Container>
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
-            <SvgIcon src="logo.png" width="101px" height="101px" />
+            {/* <SvgIcon src="SeedBuilders.svg" width="101px" height="101px" /> */}
+            <h5 style={{
+              fontSize: "34px", fontWeight: "600", textAlign: "center",
+              margin: "1.150rem 0 1rem 0",
+            }}>Seed Builders</h5>
           </LogoContainer>
           <NotHidden>
             <MenuItem />

@@ -32,18 +32,32 @@
   
   "Sleep Title": "Sueño",
   "Sleep text": "Send us a message and we'll get back to you soon!",
-  "We Recommend Sleep": "Nosotras recomendamos:",
-  "8 - 10 Hours of Sleep Per Day": "De 8 a 10 horas de sueño al día.",
-  "Sleep In a Dark, Cool Place": "Duerme en un lugar oscuro y fresco.",
-  "Keep a Consistent Schedule": "Mantén un horario regular.",
 
   "Training Title": "Trainingo",
   "Training Text": "El entrenamiento es importante porque ayuda a que tu cuerpo se fortalezca, se vuelva más rápido y más resistente con el tiempo. El entrenamiento regular mejora la fuerza muscular, la resistencia y la coordinación, a la vez que aumenta la confianza y la concentración mental. Enseña disciplina y constancia, lo que te ayuda a desarrollar hábitos saludables que favorecen el crecimiento físico y personal a largo plazo.",
+  
+  "We Recommend Nutriution": "We Recommend:",
+  "Eating TONS of seeds": "Eating TONS of seeds.",
+  "Eating lots of low starch vegetables": "Eating lots of low starch vegetables.",
+  "Eating some fruit": "Eating some fruit.",
+  "Eating a small amount of starchy foods": "Eating a small amount of starchy foods.",
+  "Eating little to no added sugar": "Eating little to no added sugar.",
+  
   "We Recommend Training": "Nosotros recomendamos:",
   "Olympic Weightlifting": "Levantamiento de Pesas Olímpico",
   "CrossFit": "CrossFit",
   "Powerlifting": "Powerlifting",
   "Yoga": "Yoga",
-  "Sports": "Deportes"
+  "Sports": "Deportes",
 
+  "We Recommend Supplements": "We Recommend:",
+  "Vitamins...": "Vitamins...",
+  "Amino Acids...": "Amino Acids...",
+  "Creatine...": "Creatine...",
+  "DHA...": "DHA...",
+
+  "We Recommend Sleep": "Nosotras recomendamos:",
+  "8 - 10 hours of sleep per day": "De 8 a 10 horas de sueño al día.",
+  "Sleep in a cool, dark room": "Duerme en un lugar oscuro y fresco.",
+  "Keep a consistent schedule": "Mantén un horario regular."
 }

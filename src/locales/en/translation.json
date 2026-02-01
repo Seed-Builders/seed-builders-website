@@ -32,19 +32,33 @@
 
   "Sleep Title": "Sleep",
   "Sleep Text": "Quality sleep is crucial for maximum muscle growth, top overall health, and peak athletic performance.",
-  "We Recommend Sleep": "We Recommend:" ,
-  "8 - 10 Hours of Sleep Per Day": "8 - 10 hours of sleep per day.",
-  "Sleep In a Dark, Cool Place": "Sleep in a dark, cool place.",
-  "Keep a Consistent Schedule": "Keep a consistent schedule.",
-
+  
   "Training Title": "Training",
   "Training Text": "Training helps your body grow stronger, faster, and more resilient. There are many great ways to work out.",
+
+  "We Recommend Nutriution": "We Recommend:",
+  "Eating TONS of seeds": "Eating TONS of seeds.",
+  "Eating lots of low starch vegetables": "Eating lots of low starch vegetables.",
+  "Eating some fruit": "Eating some fruit.",
+  "Eating a small amount of starchy foods": "Eating a small amount of starchy foods.",
+  "Eating little to no added sugar": "Eating little to no added sugar.",
 
   "We Recommend Training": "We Recommend:",
   "Olympic Weightlifting": "Olympic Weightlifting",
   "CrossFit": "CrossFit",
   "Powerlifting": "Powerlifting",
   "Yoga": "Yoga",
-  "Sports": "Sports"
+  "Sports": "Sports" ,
   
+  "We Recommend Supplements": "We Recommend:",
+  "Vitamins...": "Vitamins, especially those difficult to get on a vegan diet: B12, Vitamin D, Iron, Calcium, and Iodine.",
+  "Amino Acids...": "Amino Acids: Lysine and Leucine helps the body more fully utilize seed protein to synthesize muscle.",
+  "Creatine...": "Creatine: to help your muscles make energy faster and recover better.",
+  "DHA...": "DHA & EPA Omega 3s (Usually in the form of fish oil, krill oil, or cod liver oil).",
+  
+  "We Recommend Sleep": "We Recommend:",
+  "8 - 10 hours of sleep per day": "8 - 10 hours of sleep per day.",
+  "Sleep in a cool, dark room": "Sleep in a cool, dark room.",
+  "Keep a consistent schedule": "Keep a consistent schedule."
+
 }
