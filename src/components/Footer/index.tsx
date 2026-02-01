@@ -52,39 +52,42 @@ const Footer = ({ t }: { t: TFunction }) => {
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
               <Language>{t("Contact")}</Language>
-              <Large to="/">{t("Tell us everything")}</Large>
+              {/* <Large to="/">{t("Tell us everything")}</Large> */}
               <Para>
                 {t(`Do you have any question? Feel free to reach out.`)}
               </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
-                <Chat>{t(`Let's Chat`)}</Chat>
+              <a href="mailto:seedbuilderjim@gmail.com">
+                <Chat>{t(`Email Us`)}</Chat>
               </a>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Policy")}</Title>
-              <Large to="/">{t("Application Security")}</Large>
-              <Large to="/">{t("Software Principles")}</Large>
+              <Title>{"Get Involved"}</Title>
+              <Large to="/">{"Book a remote coaching session"}</Large>
+              <Large to="/">{"Join a Fitness Class"}</Large>
+              <Large to="/">{"Become a Certified Coach"}</Large>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
               <Empty />
-              <Large to="/">{t("Support Center")}</Large>
-              <Large to="/">{t("Customer Support")}</Large>
+              <Empty />
+              <Empty />
+              {/* <Large to="/">{t("Support Center")}</Large>
+              <Large to="/">{t("Customer Support")}</Large> */}
             </Col>
           </Row>
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
               <Language>{t("Address")}</Language>
-              <Para>Rancho Santa Margarita</Para>
-              <Para>2131 Elk Street</Para>
-              <Para>California</Para>
+              <Para>Seed Builders Headquarters</Para>
+              <Para>3415 31st Ave</Para>
+              <Para>Astoria, New York</Para>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Company")}</Title>
+              <Title>{t("Core Principles")}</Title>
               <Large to="/">{t("Nutrition")}</Large>
-              <Large to="/">{t("Blog")}</Large>
-              <Large to="/">{t("Press")}</Large>
-              <Large to="/">{t("Careers & Culture")}</Large>
+              <Large to="/">{t("Supplements")}</Large>
+              <Large to="/">{t("Training")}</Large>
+              <Large to="/">{t("Sleep")}</Large>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
               <Label htmlFor="select-lang">{t("Language")}</Label>
@@ -129,22 +132,22 @@ const Footer = ({ t }: { t: TFunction }) => {
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
+                href="https://github.com/orgs/Seed-Builders"
                 src="github.svg"
               />
               <SocialLink
-                href="https://twitter.com/Adrinlolx"
+                href="https://twitter.com/SeedBuilders"
                 src="twitter.svg"
               />
               <SocialLink
-                href="https://www.linkedin.com/in/lasha-kakabadze/"
+                href="https://www.linkedin.com/in/SeedBuilders"
                 src="linkedin.svg"
               />
               <SocialLink
-                href="https://medium.com/@lashakakabadze/"
+                href="https://medium.com/@seedbuilders"
                 src="medium.svg"
               />
-              <a
+              {/* <a
                 href="https://ko-fi.com/Y8Y7H8BNJ"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -155,7 +158,7 @@ const Footer = ({ t }: { t: TFunction }) => {
                   src="https://storage.ko-fi.com/cdn/kofi3.png?v=3"
                   alt="Buy Me a Coffee at ko-fi.com"
                 />
-              </a>
+              </a> */}
             </FooterContainer>
           </Row>
         </Container>

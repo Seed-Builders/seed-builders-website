@@ -6,7 +6,7 @@
   "Sleep": "Sleep",
   "Tell us everything": "Tell us everything",
   "Contact": "Contact",
-  "Do you have any question? Feel free to reach out.": "Do you have any question? Feel free to reach out.",
+  "Do you have any question? Feel free to reach out.": "Have any question? Feel free to reach out.",
   "Let's Chat": "Let's Chat",
   "Application Security": "Application Security",
   "Software Principles": "Software Principles",
@@ -16,7 +16,7 @@
   "Press": "Press",
   "Careers & Culture": "Careers & Culture",
   "Language": "Language",
-  "Explore": "Explore",
+  "Book a Coaching Session": "Book a Coaching Session",
   "Learn more": "Learn more",
   "Get started": "Get started",
   "Submit": "Submit",
@@ -27,5 +27,24 @@
   "Email" : "Email",
   "Your Email": "Your Email",
   
-  "Contact Us": "Contact Us"
+  "Contact Us": "Contact Us",
+  "Send us a message and we'll get back to you soon!": "Send us a message and we'll get back to you soon!",
+
+  "Sleep Title": "Sleep",
+  "Sleep Text": "Quality sleep is crucial for maximum muscle growth, top overall health, and peak athletic performance.",
+  "We Recommend Sleep": "We Recommend:" ,
+  "8 - 10 Hours of Sleep Per Day": "8 - 10 hours of sleep per day.",
+  "Sleep In a Dark, Cool Place": "Sleep in a dark, cool place.",
+  "Keep a Consistent Schedule": "Keep a consistent schedule.",
+
+  "Training Title": "Training",
+  "Training Text": "Training helps your body grow stronger, faster, and more resilient. There are many great ways to work out.",
+
+  "We Recommend Training": "We Recommend:",
+  "Olympic Weightlifting": "Olympic Weightlifting",
+  "CrossFit": "CrossFit",
+  "Powerlifting": "Powerlifting",
+  "Yoga": "Yoga",
+  "Sports": "Sports"
+  
 }

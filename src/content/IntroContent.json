@@ -1,12 +1,12 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "A lifestyle that maximizes health, longevity, and athletic performance.",
+  "text": "Seeds rank as the #1 source of protein in terms of oxidative stress, portability, and affects on heart health.",
   "button": [
     {
-      "title": "Explore"
+      "title": " Book a Coaching Session "
     },
     {
-      "title": "Learn more",
+      "title": "Join a Fitness Class",
       "color": "#fff"
     }
   ]

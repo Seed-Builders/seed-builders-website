@@ -16,7 +16,7 @@
   "Press": "Prensa",
   "Careers & Culture": "Carreras & cultura",
   "Language": "Language",
-  "Explore": "Explorar",
+  "Book a Coaching Session": "Reserva una sesión de coaching",
   "Learn more": "Más información",
   "Get started": "Comenzar",
   "Submit": "Enviar",
@@ -27,5 +27,23 @@
   "Email" : "Email",
   "Your Email": "Tu correo electrónico",
 
-  "Contact Us": "Contacta Con Nosotros"
+  "Contact Us": "Contacta Con Nosotros",
+  "Send us a message and we'll get back to you soon!": "¡Envíanos un mensaje y te responderemos pronto!",
+  
+  "Sleep Title": "Sueño",
+  "Sleep text": "Send us a message and we'll get back to you soon!",
+  "We Recommend Sleep": "Nosotras recomendamos:",
+  "8 - 10 Hours of Sleep Per Day": "De 8 a 10 horas de sueño al día.",
+  "Sleep In a Dark, Cool Place": "Duerme en un lugar oscuro y fresco.",
+  "Keep a Consistent Schedule": "Mantén un horario regular.",
+
+  "Training Title": "Trainingo",
+  "Training Text": "El entrenamiento es importante porque ayuda a que tu cuerpo se fortalezca, se vuelva más rápido y más resistente con el tiempo. El entrenamiento regular mejora la fuerza muscular, la resistencia y la coordinación, a la vez que aumenta la confianza y la concentración mental. Enseña disciplina y constancia, lo que te ayuda a desarrollar hábitos saludables que favorecen el crecimiento físico y personal a largo plazo.",
+  "We Recommend Training": "Nosotros recomendamos:",
+  "Olympic Weightlifting": "Levantamiento de Pesas Olímpico",
+  "CrossFit": "CrossFit",
+  "Powerlifting": "Powerlifting",
+  "Yoga": "Yoga",
+  "Sports": "Deportes"
+
 }

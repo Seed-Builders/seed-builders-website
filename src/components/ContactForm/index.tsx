@@ -30,12 +30,14 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
           <Slide direction="right" triggerOnce>
             <FormGroup autoComplete="off" onSubmit={handleSubmit}>
               <Col span={24}>
+                <label htmlFor="name">{t("Name")}</label>
                 <Input
                   type="text"
                   name="name"
                   placeholder="Your Name"
                   value={values.name || ""}
                   onChange={handleChange}
+                  
                 />
                 <ValidationType type="name" />
               </Col>
