@@ -22,13 +22,13 @@ const Home = ({ t }: { t: TFunction }) => {
       <ScrollToTop />
       <ContentBlock
         direction="right"
-        title={IntroContent.title}
-        content={IntroContent.text}
-        button={IntroContent.button}
+        title={t("IntroContent Title")}
+        content={t("IntroContent Text")}
+        button={[{title: t("Button1"), linkTo: "https://calendly.com/seedbuilderjim/30min"}, 
+          {title: t("Button2"), linkTo: "https://pushpress.com"}]}
         icon="developer.svg"
         id="intro"
       />
-
 
 
       {/* <MiddleBlock
@@ -38,11 +38,10 @@ const Home = ({ t }: { t: TFunction }) => {
       /> */}
 
 
-
       <ContentBlock
         direction="left"
-        title={NutritionContent.title}
-        content={NutritionContent.text}
+        title={t("Nutrition Title")}
+        content={t("Nutrition Text")}
         // section={NutritionContent.section}
         icon="graphs.svg"
         id="nutrition"
@@ -59,9 +58,9 @@ const Home = ({ t }: { t: TFunction }) => {
 
       <ContentBlock
         direction="right"
-        title={SupplementsContent.title}
-        content={SupplementsContent.text}
-        icon="product-launch.svg"
+        title={t("Supplements Title")}
+        content={t("Supplements Text")}
+        icon="supplements.png"
         id="supplements"
 
         recommendationHeader={t("We Recommend Supplements")}
@@ -77,7 +76,7 @@ const Home = ({ t }: { t: TFunction }) => {
         direction="left"
         title={t("Training Title")}
         content={t("Training Text")}
-        icon="waving.svg"
+        icon="2018-10-11_Snatch_(Weightlifting_Boys'_77kg)_at_2018_Summer_Youth_Olympics_by_Sandro_Halank–175.jpg"
         id="training"
         // Pass the list and the recommendation header as props
         recommendationHeader={t("We Recommend Training")}
@@ -94,7 +93,7 @@ const Home = ({ t }: { t: TFunction }) => {
         direction="right"
         title={t("Sleep Title")}
         content={t("Sleep Text")}
-        icon="waving.svg"
+        icon="sleep.jpg"
         id="sleep"
 
         recommendationHeader={t("We Recommend Sleep")}

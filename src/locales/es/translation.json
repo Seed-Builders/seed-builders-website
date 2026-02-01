@@ -12,10 +12,10 @@
   "Software Principles": "Principios de software",
   "Support Center": "Centro de Apoyo",
   "Customer Support": "Atención al cliente",
-  "Address": "Habla A",
+  "Address": "Dirección",
   "Press": "Prensa",
   "Careers & Culture": "Carreras & cultura",
-  "Language": "Language",
+  "Language": "Idioma",
   "Book a Coaching Session": "Reserva una sesión de coaching",
   "Learn more": "Más información",
   "Get started": "Comenzar",
@@ -26,22 +26,40 @@
   "Your Name": "Tu nombre",
   "Email" : "Email",
   "Your Email": "Tu correo electrónico",
+  "Email Us": "Envíanos Un Correo Electrónico",
+  "Seed Builders": "Seed Builders",
+  "Seed Builders Headquarters": "Sede de Seed Builders",
+  "3415 31st Ave": "3415 Avenida 31",
+  "Astoria, New York": "Astoria, Nueva York",
+  
+  "Core Principles": "Principios Fundamentales",
+
+  "Get Involved": "Para Participar",
+  "Book a remote coaching session": "Reserva na Sesión de Entrenamiento a Distancia",
+  "Join a Fitness Class": "Únete a una Clase de Fitness Cerca de Ti",
+  "Become a Certified Coach": "Conviértete en Entrenador/a Certificado/a de Seed Buildersh",
 
   "Contact Us": "Contacta Con Nosotros",
   "Send us a message and we'll get back to you soon!": "¡Envíanos un mensaje y te responderemos pronto!",
   
   "Sleep Title": "Sueño",
-  "Sleep text": "Send us a message and we'll get back to you soon!",
+  "Sleep Text": "Un sueño de calidad es crucial para el máximo crecimiento muscular, una salud óptima en general y un rendimiento deportivo de alto nivel.",
 
   "Training Title": "Trainingo",
   "Training Text": "El entrenamiento es importante porque ayuda a que tu cuerpo se fortalezca, se vuelva más rápido y más resistente con el tiempo. El entrenamiento regular mejora la fuerza muscular, la resistencia y la coordinación, a la vez que aumenta la confianza y la concentración mental. Enseña disciplina y constancia, lo que te ayuda a desarrollar hábitos saludables que favorecen el crecimiento físico y personal a largo plazo.",
   
-  "We Recommend Nutriution": "We Recommend:",
-  "Eating TONS of seeds": "Eating TONS of seeds.",
-  "Eating lots of low starch vegetables": "Eating lots of low starch vegetables.",
-  "Eating some fruit": "Eating some fruit.",
-  "Eating a small amount of starchy foods": "Eating a small amount of starchy foods.",
-  "Eating little to no added sugar": "Eating little to no added sugar.",
+  "Supplements Title": "Suplementos",
+  "Supplements Text": "Es importante ser preciso y exacto con los suplementos para lograr una salud óptima y una síntesis muscular adecuada con la dieta Seed Builder.",
+  
+  "Nutrition Title": "Nutrición",
+  "Nutrition Text": "Es importante ser preciso y exacto con los suplementos para lograr una salud óptima y una síntesis muscular adecuada con la dieta Seed Builder.",
+  
+  "We Recommend Nutrition": "Nosotros recomendamos:",
+  "Eating TONS of seeds": "Comer MUCHISIMAS semillas.",
+  "Eating lots of low starch vegetables": "Comer muchas verduras bajas en almidón.",
+  "Eating some fruit": "Comer algo de fruta.",
+  "Eating a small amount of starchy foods": "Comer una pequeña cantidad de alimentos ricos en almidón.",
+  "Eating little to no added sugar": "Comer poco o ningún azúcar añadido.",
   
   "We Recommend Training": "Nosotros recomendamos:",
   "Olympic Weightlifting": "Levantamiento de Pesas Olímpico",
@@ -50,14 +68,19 @@
   "Yoga": "Yoga",
   "Sports": "Deportes",
 
-  "We Recommend Supplements": "We Recommend:",
-  "Vitamins...": "Vitamins...",
-  "Amino Acids...": "Amino Acids...",
-  "Creatine...": "Creatine...",
-  "DHA...": "DHA...",
+  "We Recommend Supplements": "Nosotras recomendamos:",
+  "Vitamins...": "Vitaminas, especialmente aquellas difíciles de obtener con una dieta vegana: B12, vitamina D, hierro, calcio y yodo.",
+  "Amino Acids...": "Aminoácidos: La lisina y la leucina ayudan al cuerpo a utilizar de forma más completa las proteínas de las semillas para sintetizar músculo.",
+  "Creatine...": "Creatina: para ayudar a tus músculos a generar energía más rápido y recuperarse mejor.",
+  "DHA...": "Ácidos grasos omega 3 DHA y EPA (generalmente en forma de aceite de pescado, aceite de krill o aceite de hígado de bacalao).",
 
   "We Recommend Sleep": "Nosotras recomendamos:",
   "8 - 10 hours of sleep per day": "De 8 a 10 horas de sueño al día.",
   "Sleep in a cool, dark room": "Duerme en un lugar oscuro y fresco.",
-  "Keep a consistent schedule": "Mantén un horario regular."
+  "Keep a consistent schedule": "Mantén un horario regular.",
+  
+  "IntroContent Title": "Un Estilo de Vida Que Maximiza la Salud, la Longevidad y el Rendimiento Deportivo.",
+  "IntroContent Text": "Las semillas son una fuente de proteínas mejor que los productos de origen animal en términos de estrés oxidativo, inflamación y salud cardiovascular (y la diferencia es abismal).",
+  "Button1": "Reserva una Sesión de Coaching",
+  "Button2": "Únete a una Clase de Fitness."
 }

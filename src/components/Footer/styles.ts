@@ -68,6 +68,27 @@ export const Large = styled(Link)`
   }
 `;
 
+// Add this below your Large definition
+export const LargeExternal = styled.a`
+  /* This copies all styles from Large */
+  font-size: 16px;
+  color: #000;
+  cursor: pointer;
+  text-transform: capitalize;
+  line-height: 24px;
+  display: block;
+  margin-bottom: 0.625rem;
+  transition: all 0.3s ease-in-out;
+  max-width: max-content;
+  text-decoration: none; /* Anchors have underlines by default, so we reset it */
+
+  &:hover {
+    color: rgb(255, 130, 92);
+    text-underline-position: under;
+    text-decoration: rgb(255, 130, 92) wavy underline;
+  }
+`;
+
 export const Chat = styled("p")`
   color: #15521a;
   max-width: fit-content;

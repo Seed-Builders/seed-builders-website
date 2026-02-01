@@ -19,6 +19,7 @@ import {
   Label,
   LanguageSwitch,
   LanguageSwitchContainer,
+  LargeExternal,
 } from "./styles";
 
 interface SocialLinkProps {
@@ -61,10 +62,10 @@ const Footer = ({ t }: { t: TFunction }) => {
               </a>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{"Get Involved"}</Title>
-              <Large to="/">{"Book a remote coaching session"}</Large>
-              <Large to="/">{"Join a Fitness Class"}</Large>
-              <Large to="/">{"Become a Certified Coach"}</Large>
+              <Title>{t("Get Involved")}</Title>
+              <LargeExternal href="https://calendly.com/seedbuilderjim/30min">{t("Book a remote coaching session")}</LargeExternal>
+              <LargeExternal href="https://www.pushpress.com">{t("Join a Fitness Class")}</LargeExternal>
+              <Large to="/">{t("Become a Certified Coach")}</Large>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
               <Empty />
@@ -78,9 +79,9 @@ const Footer = ({ t }: { t: TFunction }) => {
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
               <Language>{t("Address")}</Language>
-              <Para>Seed Builders Headquarters</Para>
-              <Para>3415 31st Ave</Para>
-              <Para>Astoria, New York</Para>
+              <Para>{t("Seed Builders Headquarters")}</Para>
+              <Para>{t("3415 31st Ave")}</Para>
+              <Para>{t("Astoria, New York")}</Para>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Core Principles")}</Title>

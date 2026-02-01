@@ -26,7 +26,19 @@
   "Your Name": "Your Name",
   "Email" : "Email",
   "Your Email": "Your Email",
-  
+  "Email Us": "Email Us",
+  "Seed Builders": "Constructores de Semillas",
+  "Seed Builders Headquarters": "Seed Builders Headquarters",
+  "3415 31st Ave": "3415 31st Ave",
+  "Astoria, New York": "Astoria, New York",
+
+  "Core Principles": "Core Principles",
+
+  "Get Involved": "Get Involved",
+  "Book a remote coaching session": "Book a Remote Coaching Session",
+  "Join a Fitness Class": "Join a Fitness Class Near You",
+  "Become a Certified Coach": "Become a Certified Seed Builders Coach",
+
   "Contact Us": "Contact Us",
   "Send us a message and we'll get back to you soon!": "Send us a message and we'll get back to you soon!",
 
@@ -36,7 +48,13 @@
   "Training Title": "Training",
   "Training Text": "Training helps your body grow stronger, faster, and more resilient. There are many great ways to work out.",
 
-  "We Recommend Nutriution": "We Recommend:",
+  "Supplements Title": "Supplements",
+  "Supplements Text": "It's important to be precise and exact with supplements in order to attain optimal health and muscle synthesis on the Seed Builder diet.",
+  
+  "Nutrition Title": "Nutrition",
+  "Nutrition Text": "The Seed Builders Diet is all about getting all or most of your daily protein from seeds- hemp seeds pumpkin seeds, sunflower seeds, chia seeds, etc.",
+  
+  "We Recommend Nutrition": "We Recommend:",
   "Eating TONS of seeds": "Eating TONS of seeds.",
   "Eating lots of low starch vegetables": "Eating lots of low starch vegetables.",
   "Eating some fruit": "Eating some fruit.",
@@ -59,6 +77,10 @@
   "We Recommend Sleep": "We Recommend:",
   "8 - 10 hours of sleep per day": "8 - 10 hours of sleep per day.",
   "Sleep in a cool, dark room": "Sleep in a cool, dark room.",
-  "Keep a consistent schedule": "Keep a consistent schedule."
+  "Keep a consistent schedule": "Keep a consistent schedule.",
 
+  "IntroContent Title": "A Lifestyle That Maximizes Health, Longevity, & Athletic Performance.",
+  "IntroContent Text": "Seeds are a better form of protein than animal products in terms of oxidative stress, inflammation, and heart health (and the race is not even close).",
+  "Button1": "Book a Coaching Session",
+  "Button2": "Join a Fitness Class"
 }
