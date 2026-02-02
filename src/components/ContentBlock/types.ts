@@ -25,4 +25,5 @@ export interface ContentBlockProps {
   direction: "left" | "right";
   recommendationHeader?: string;
   listItems?: string[];
+  cropImg: boolean
 }

@@ -28,6 +28,7 @@ const Home = ({ t }: { t: TFunction }) => {
           {title: t("Button2"), linkTo: "https://pushpress.com"}]}
         icon="developer.svg"
         id="intro"
+        cropImg={false}
       />
 
 
@@ -45,7 +46,7 @@ const Home = ({ t }: { t: TFunction }) => {
         // section={NutritionContent.section}
         icon="graphs.svg"
         id="nutrition"
-
+        cropImg={false}
         recommendationHeader={t("We Recommend Nutrition")}
         listItems={[
           t("Eating TONS of seeds"),
@@ -54,6 +55,7 @@ const Home = ({ t }: { t: TFunction }) => {
           t("Eating a small amount of starchy foods"),
           t("Eating little to no added sugar"),
         ]}
+        
       />
 
       <ContentBlock
@@ -62,7 +64,7 @@ const Home = ({ t }: { t: TFunction }) => {
         content={t("Supplements Text")}
         icon="supplements.png"
         id="supplements"
-
+        cropImg={true}
         recommendationHeader={t("We Recommend Supplements")}
         listItems={[
           t("Vitamins..."),
@@ -78,7 +80,7 @@ const Home = ({ t }: { t: TFunction }) => {
         content={t("Training Text")}
         icon="2018-10-11_Snatch_(Weightlifting_Boys'_77kg)_at_2018_Summer_Youth_Olympics_by_Sandro_Halank–175.jpg"
         id="training"
-        // Pass the list and the recommendation header as props
+        cropImg={true}
         recommendationHeader={t("We Recommend Training")}
         listItems={[
           t("Olympic Weightlifting"),
@@ -95,7 +97,7 @@ const Home = ({ t }: { t: TFunction }) => {
         content={t("Sleep Text")}
         icon="sleep.jpg"
         id="sleep"
-
+        cropImg={true}
         recommendationHeader={t("We Recommend Sleep")}
         listItems={[
           t("8 - 10 hours of sleep per day"),

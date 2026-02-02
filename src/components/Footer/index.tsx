@@ -65,7 +65,11 @@ const Footer = ({ t }: { t: TFunction }) => {
               <Title>{t("Get Involved")}</Title>
               <LargeExternal href="https://calendly.com/seedbuilderjim/30min">{t("Book a remote coaching session")}</LargeExternal>
               <LargeExternal href="https://www.pushpress.com">{t("Join a Fitness Class")}</LargeExternal>
-              <Large to="/">{t("Become a Certified Coach")}</Large>
+              
+              <span onClick={() => alert("Coaching certifications coming soon!")}>
+
+                <Large to="/">{t("Become a Certified Coach")}</Large>
+              </span>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
               <Empty />
@@ -124,7 +128,7 @@ const Footer = ({ t }: { t: TFunction }) => {
             <NavLink to="/">
               <LogoContainer>
                 <SvgIcon
-                  src="SeedBuilders.svg"
+                  src="SeedBuilders-cropped.svg"
                   aria-label="homepage"
                   width="101px"
                   height="101px"
@@ -137,15 +141,15 @@ const Footer = ({ t }: { t: TFunction }) => {
                 src="github.svg"
               />
               <SocialLink
-                href="https://twitter.com/SeedBuilders"
+                href="https://x.com/SeedBuilderJim"
                 src="twitter.svg"
               />
               <SocialLink
-                href="https://www.linkedin.com/in/SeedBuilders"
+                href="https://www.linkedin.com/company/seed-builders"
                 src="linkedin.svg"
               />
               <SocialLink
-                href="https://medium.com/@seedbuilders"
+                href="https://medium.com/@seedbuilderjim"
                 src="medium.svg"
               />
               {/* <a

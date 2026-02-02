@@ -28,7 +28,8 @@ const ContentBlock = ({
   id,
   direction,
   listItems,
-  recommendationHeader
+  recommendationHeader,
+  cropImg
 }: ContentBlockProps) => {
   const scrollTo = (id: string) => {
     const element = document.getElementById(id) as HTMLDivElement;
@@ -47,7 +48,20 @@ const ContentBlock = ({
           direction={direction}
         >
           <Col lg={11} md={11} sm={12} xs={24}>
-            <SvgIcon src={icon} width="100%" height="100%" />
+
+            {cropImg && <div
+                style={{
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
+                  overflow: "hidden" // clips corners nicely
+                }}
+              >
+                <SvgIcon src={icon} width="100%" height="100%" />
+              </div>}
+
+            {!cropImg &&
+              <SvgIcon src={icon} width="100%" height="100%"/>
+            }
           </Col>
           <Col lg={11} md={11} sm={11} xs={24}>
             <ContentWrapper>
