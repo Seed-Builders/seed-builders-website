@@ -20,7 +20,9 @@ import {
   LanguageSwitch,
   LanguageSwitchContainer,
   LargeExternal,
+  CustomNavLinkSmall, Span 
 } from "./styles";
+
 
 interface SocialLinkProps {
   href: string;
@@ -46,6 +48,14 @@ const Footer = ({ t }: { t: TFunction }) => {
     );
   };
 
+  const scrollTo = (id: string) => {
+      const element = document.getElementById(id) as HTMLDivElement;
+      element.scrollIntoView({
+        behavior: "smooth",
+      });
+      // setVisibility(false);
+    };
+
   return (
     <>
       <FooterSection>
@@ -64,7 +74,7 @@ const Footer = ({ t }: { t: TFunction }) => {
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Get Involved")}</Title>
               <LargeExternal href="https://calendly.com/seedbuilderjim/30min">{t("Book a remote coaching session")}</LargeExternal>
-              <LargeExternal href="https://www.pushpress.com">{t("Join a Fitness Class")}</LargeExternal>
+              <LargeExternal href="https://seedbuilders.pushpress.com/landing/calendar">{t("Join a Fitness Class")}</LargeExternal>
               
               <span onClick={() => alert("Coaching certifications coming soon!")}>
 
@@ -89,10 +99,18 @@ const Footer = ({ t }: { t: TFunction }) => {
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Core Principles")}</Title>
-              <Large to="/">{t("Nutrition")}</Large>
-              <Large to="/">{t("Supplements")}</Large>
-              <Large to="/">{t("Training")}</Large>
-              <Large to="/">{t("Sleep")}</Large>
+              <CustomNavLinkSmall to="" onClick={() => scrollTo("nutrition")}>
+                <Span>{t("Nutrition")}</Span>
+              </CustomNavLinkSmall>
+              <CustomNavLinkSmall to="" onClick={() => scrollTo("supplements")}>
+                <Span>{t("Supplements")}</Span>
+              </CustomNavLinkSmall>
+              <CustomNavLinkSmall to="" onClick={() => scrollTo("training")}>
+                <Span>{t("Training")}</Span>
+              </CustomNavLinkSmall>
+              <CustomNavLinkSmall to="" onClick={() => scrollTo("sleep")}>
+                <Span>{t("Sleep")}</Span>
+              </CustomNavLinkSmall>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
               <Label htmlFor="select-lang">{t("Language")}</Label>
@@ -137,20 +155,24 @@ const Footer = ({ t }: { t: TFunction }) => {
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href="https://github.com/orgs/Seed-Builders"
-                src="github.svg"
+                href="https://www.youtube.com/@Seed-Builders"
+                src="youtube.svg"
               />
               <SocialLink
-                href="https://x.com/SeedBuilderJim"
-                src="twitter.svg"
+                href="https://medium.com/@seedbuilderjim"
+                src="medium.svg"
               />
               <SocialLink
                 href="https://www.linkedin.com/company/seed-builders"
                 src="linkedin.svg"
               />
               <SocialLink
-                href="https://medium.com/@seedbuilderjim"
-                src="medium.svg"
+                href="https://x.com/SeedBuilderJim"
+                src="twitter.svg"
+              />
+              <SocialLink
+                href="https://github.com/orgs/Seed-Builders"
+                src="github.svg"
               />
               {/* <a
                 href="https://ko-fi.com/Y8Y7H8BNJ"
