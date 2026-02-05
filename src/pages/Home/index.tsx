@@ -78,7 +78,7 @@ const Home = ({ t }: { t: TFunction }) => {
         direction="left"
         title={t("Training Title")}
         content={t("Training Text")}
-        icon="2018-10-11_Snatch_(Weightlifting_Boys'_77kg)_at_2018_Summer_Youth_Olympics_by_Sandro_Halank–175.jpg"
+        icon="snatch-gold-guy.png"
         id="training"
         cropImg={true}
         recommendationHeader={t("We Recommend Training")}
