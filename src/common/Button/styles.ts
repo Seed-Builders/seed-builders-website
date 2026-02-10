@@ -8,7 +8,7 @@ export const StyledButton = styled("button")<{ color?: string }>`
   width: 100%;
   border: 1px solid #edf3f5;
   border-radius: 4px;
-  padding: 13px 0;
+  padding: 13px 10px;
   cursor: pointer;
   margin-top: 0.625rem;
   max-width: 180px;
