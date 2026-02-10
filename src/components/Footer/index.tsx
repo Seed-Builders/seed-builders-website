@@ -60,7 +60,7 @@ const Footer = ({ t }: { t: TFunction }) => {
     <>
       <FooterSection>
         <Container>
-          <Row justify="space-between">
+          <Row justify="space-between" style={{paddingTop: "1rem", paddingBottom: "2rem"}}>
             <Col lg={10} md={10} sm={12} xs={12}>
               <Language>{t("Contact")}</Language>
               {/* <Large to="/">{t("Tell us everything")}</Large> */}
@@ -81,12 +81,9 @@ const Footer = ({ t }: { t: TFunction }) => {
                 <Large to="/">{t("Become a Certified Coach")}</Large>
               </span>
             </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
-              <Empty />
-              <Empty />
-              <Empty />
-              {/* <Large to="/">{t("Support Center")}</Large>
-              <Large to="/">{t("Customer Support")}</Large> */}
+            <Col lg={6} md={6} sm={6} xs={6}>
+              <Title>{t("Shop")}</Title>
+              <LargeExternal href="https://shop.seedbuilders.org">{t("Seed Builders Official Store")}</LargeExternal>
             </Col>
           </Row>
           <Row justify="space-between">

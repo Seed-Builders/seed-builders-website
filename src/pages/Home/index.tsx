@@ -25,7 +25,9 @@ const Home = ({ t }: { t: TFunction }) => {
         title={t("IntroContent Title")}
         content={t("IntroContent Text")}
         button={[{title: t("Button1"), linkTo: "https://calendly.com/seedbuilderjim/30min"}, 
-          {title: t("Button2"), linkTo: "https://seedbuilders.pushpress.com/landing/calendar"}]}
+          {title: t("Button2"), linkTo: "https://seedbuilders.pushpress.com/landing/calendar"},
+          {title: t("Button3"), linkTo: "https://shop.seedbuilders.org"},
+        ]}
         icon="developer.svg"
         id="intro"
         cropImg={false}
@@ -54,6 +56,7 @@ const Home = ({ t }: { t: TFunction }) => {
           t("Eating some fruit"),
           t("Eating a small amount of starchy foods"),
           t("Eating little to no added sugar"),
+          t("Decide on a daily target of calories and macronutrients"),
         ]}
         
       />
@@ -71,6 +74,7 @@ const Home = ({ t }: { t: TFunction }) => {
           t("Amino Acids..."),
           t("Creatine..."),
           t("DHA..."),
+          t("Sleep supplements like...")
         ]}
       />
 
@@ -88,6 +92,7 @@ const Home = ({ t }: { t: TFunction }) => {
           t("Powerlifting"),
           t("Yoga"),
           t("Sports"),
+          t("Cables & Machines"),
         ]}
       />
 
@@ -102,7 +107,9 @@ const Home = ({ t }: { t: TFunction }) => {
         listItems={[
           t("8 - 10 hours of sleep per day"),
           t("Sleep in a cool, dark room"),
-          t("Keep a consistent schedule")
+          t("Keep a consistent schedule"),
+          t("Use breathing aids"),
+          t("Take advantage of naps if you can")
         ]}
       />
 

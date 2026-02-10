@@ -60,15 +60,18 @@ export const MinPara = styled("p")`
 export const ButtonWrapper = styled("div")`
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+
   max-width: 100%;
 
   @media screen and (min-width: 1024px) {
     max-width: 80%;
   }
 
-  button:last-child {
-    margin-left: 20px;
-  }
+  // button:last-child {
+  //   margin-left: 20px;
+  // }
 `;
 
 export const StyledList = styled("ul")`
@@ -90,6 +93,11 @@ export const StyledList = styled("ul")`
       margin-right: 1rem;
       line-height: 0;
     }
+  }
+
+  .button {
+    padding-left: .25rem;
+    padding-right: .25rem;
   }
 `;
 

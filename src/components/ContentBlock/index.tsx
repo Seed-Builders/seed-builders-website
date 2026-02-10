@@ -128,17 +128,7 @@ const ContentBlock = ({
                               />
                               <MinTitle>{t(item.title)}</MinTitle>
                               <MinPara>{t(item.content)}</MinPara>
-                              {/* <Min */}
-
-                              {/* <p>
-                                {t("We Recommend")}
-                              </p>
-
-                              <ul>
-                                <li>{t("8 - 10 Hours of Sleep Per Day")}</li>
-                                <li>{t("Sleep In a Dark, Cool Place")}</li>
-                                <li>{t("Keep a Consistent Schedule")}</li>
-                              </ul> */}
+                      
                             </Col>
                           );
                         }

@@ -60,27 +60,33 @@
   "Eating some fruit": "Eating some fruit.",
   "Eating a small amount of starchy foods": "Eating a small amount of starchy foods.",
   "Eating little to no added sugar": "Eating little to no added sugar.",
+  "Decide on a daily target of calories and macronutrients": "Decide on a daily target of calories and macronutrients (protein, fats, carbohydrates), and stick to it.",
 
   "We Recommend Training": "We Recommend:",
   "Olympic Weightlifting": "Olympic Weightlifting",
-  "CrossFit": "CrossFit",
+  "CrossFit": "Metabolic Conditioning Workouts",
   "Powerlifting": "Powerlifting",
   "Yoga": "Yoga",
-  "Sports": "Sports" ,
+  "Sports": "Deportes",
+  "Cables & Machines": "Cables & Machines Training",
   
   "We Recommend Supplements": "We Recommend:",
   "Vitamins...": "Vitamins and minerals, especially the essential ones that difficult to get on a vegan diet: B12, Vitamin D, Calcium, and Iodine.",
   "Amino Acids...": "Amino Acids, especially Lysine and Leucine since they help the body more fully utilize seed protein to synthesize muscle.",
   "Creatine...": "Creatine: to help your muscles make energy faster and recover better.",
   "DHA...": "DHA & EPA Omega 3s (Usually in the form of fish oil, krill oil, or cod liver oil).",
+  "Sleep supplements like...": "Herbs meant to support good sleep (optional) such as: valerian root, passion flower, chamomile, melatonin, GABA.",
   
   "We Recommend Sleep": "We Recommend:",
   "8 - 10 hours of sleep per day": "8 - 10 hours of sleep per day.",
   "Sleep in a cool, dark room": "Sleep in a cool, dark room.",
   "Keep a consistent schedule": "Keep a consistent schedule.",
+  "Use breathing aids": "Use breathing aids (if needed).",
+  "Take advantage of naps if you can": "Take advantage of naps if you can.",
 
   "IntroContent Title": "A Lifestyle That Maximizes Health, Longevity, & Athletic Performance.",
   "IntroContent Text": "Seeds are a far superior source of protein than than animal products in terms of oxidative stress, inflammation, and heart health.",
   "Button1": "Book a Coaching Session",
-  "Button2": "Join a Fitness Class"
+  "Button2": "Join a Fitness Class",
+  "Button3": "Shop The Seed Builders Store"
 }
