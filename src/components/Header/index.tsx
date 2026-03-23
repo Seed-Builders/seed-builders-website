@@ -45,7 +45,10 @@ const Header = ({ t }: { t: TFunction }) => {
         <CustomNavLinkSmall onClick={() => scrollTo("sleep")}>
           <Span>{t("Sleep")}</Span>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall
+        <CustomNavLinkSmall onClick={() => scrollTo("sleep")}>
+          <Span>{t("Spirituality")}</Span>
+        </CustomNavLinkSmall>
+        {/* <CustomNavLinkSmall
           style={{ width: "180px" }}
           onClick={() => window.location.href = "tel:+19177453133"}
         >
@@ -62,7 +65,7 @@ const Header = ({ t }: { t: TFunction }) => {
 
             </LilButton>
           </Span>
-        </CustomNavLinkSmall>
+        </CustomNavLinkSmall> */}
       </>
     );
   };
@@ -73,10 +76,16 @@ const Header = ({ t }: { t: TFunction }) => {
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
             {/* <SvgIcon src="SeedBuilders.svg" width="101px" height="101px" /> */}
+            <Col>
             <h5 style={{
-              fontSize: "34px", fontWeight: "600", textAlign: "center",
-              margin: "1.150rem 0 1rem 0",
-            }}>Seed Builders</h5>
+              fontSize: "30px", fontWeight: "600", textAlign: "center",
+              margin: "1.150rem 0 1rem 0", lineHeight: "1.4rem"
+            }}>The Seed Builders</h5>
+            <h5 style={{
+              fontSize: "30px", fontWeight: "600", textAlign: "center",
+              margin: "1.150rem 0 1rem 0", lineHeight: "1.4rem"
+            }}>Foundation</h5>
+            </Col>
           </LogoContainer>
           <NotHidden>
             <MenuItem />
