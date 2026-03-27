@@ -9,6 +9,7 @@ import ContactContent from "../../content/ContactContent.json";
 import { withTranslation, TFunction } from "react-i18next";
 import { Row, Col, Drawer } from "antd";
 import { SvgIcon } from "../../common/SvgIcon";
+import DropNav from "../../components/DropNav";
 
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
@@ -25,8 +26,8 @@ const Home = ({ t }: { t: TFunction }) => {
         title={t("IntroContent Title")}
         content={t("IntroContent Text")}
         button={[{title: t("Button1"), linkTo: "https://calendly.com/seedbuilderjim/30min"}, 
-          {title: t("Button2"), linkTo: "https://seedbuilders.pushpress.com/landing/calendar"},
-          {title: t("Button3"), linkTo: "https://shop.seedbuilders.org"},
+          // {title: t("Button2"), linkTo: "https://seedbuilders.pushpress.com/landing/calendar"},
+          // {title: t("Button3"), linkTo: "https://shop.seedbuilders.org"},
         ]}
         icon="developer.svg"
         id="intro"
@@ -39,6 +40,8 @@ const Home = ({ t }: { t: TFunction }) => {
         content={MiddleBlockContent.text}
         button={MiddleBlockContent.button}
       /> */}
+
+      <DropNav />
 
 
       <ContentBlock

@@ -15,6 +15,7 @@ import {
   Outline,
   Span,
 } from "./styles";
+import DropNav from "../DropNav";
 
 const Header = ({ t }: { t: TFunction }) => {
   const [visible, setVisibility] = useState(false);
@@ -33,7 +34,9 @@ const Header = ({ t }: { t: TFunction }) => {
     };
     return (
       <>
-        <CustomNavLinkSmall onClick={() => scrollTo("nutrition")}>
+
+        <DropNav />
+        {/* <CustomNavLinkSmall onClick={() => scrollTo("nutrition")}>
           <Span>{t("Nutrition")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("supplements")}>
@@ -47,7 +50,7 @@ const Header = ({ t }: { t: TFunction }) => {
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("sleep")}>
           <Span>{t("Spirituality")}</Span>
-        </CustomNavLinkSmall>
+        </CustomNavLinkSmall> */}
         {/* <CustomNavLinkSmall
           style={{ width: "180px" }}
           onClick={() => window.location.href = "tel:+19177453133"}
