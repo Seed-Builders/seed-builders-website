@@ -3,22 +3,18 @@ import styled from "styled-components";
 
 export const Nav = styled.nav`
     background: #111;
-    padding: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
     color: white;
-    overflow: visible;
-    top: 100%;
     left: 0;
-    z-index: 9999;
 `;
 
 export const Menu = styled.ul`
     display: flex;
-    top: 100%;
     left: 0;
-    z-index: 9999;
-    overflow: visible;
     gap: 2rem;
     list-style: none;
+    margin: 0;
+    padding: 0;
 `;
 
 export const Dropdown = styled.li`

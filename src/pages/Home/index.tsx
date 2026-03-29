@@ -41,7 +41,7 @@ const Home = ({ t }: { t: TFunction }) => {
         button={MiddleBlockContent.button}
       /> */}
 
-      <DropNav />
+      {/* <DropNav /> */}
 
 
       <ContentBlock

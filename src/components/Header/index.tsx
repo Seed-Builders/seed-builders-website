@@ -35,7 +35,7 @@ const Header = ({ t }: { t: TFunction }) => {
     return (
       <>
 
-        <DropNav />
+        {/* <DropNav /> */}
         {/* <CustomNavLinkSmall onClick={() => scrollTo("nutrition")}>
           <Span>{t("Nutrition")}</Span>
         </CustomNavLinkSmall>
@@ -76,7 +76,7 @@ const Header = ({ t }: { t: TFunction }) => {
   return (
     <HeaderSection>
       <Container>
-        <Row justify="space-between">
+        <div style={{display: 'flex', justifyContent: "space-between", flexDirection: 'row'}}>
           <LogoContainer to="/" aria-label="homepage">
             {/* <SvgIcon src="SeedBuilders.svg" width="101px" height="101px" /> */}
             <Col>
@@ -91,12 +91,13 @@ const Header = ({ t }: { t: TFunction }) => {
             </Col>
           </LogoContainer>
           <NotHidden>
-            <MenuItem />
+            {/* <MenuItem /> */}
+            <DropNav />
           </NotHidden>
           <Burger onClick={toggleButton}>
             <Outline />
           </Burger>
-        </Row>
+        </div>
         <Drawer closable={false} open={visible} onClose={toggleButton}>
           <Col style={{ marginBottom: "2.5rem" }}>
             <Label onClick={toggleButton}>

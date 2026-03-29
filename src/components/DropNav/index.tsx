@@ -24,10 +24,10 @@ export default function DropNav() {
         <Dropdown>
           <StyledLink to="/get-involved">Get Involved ▾ </StyledLink>
           <DropdownMenu>
-            <DropdownItem><StyledLink to="/join-a-circle">Join A Circle</StyledLink></DropdownItem>
-            <DropdownItem><StyledLink to="/volunteer">Volunteer</StyledLink></DropdownItem>
+            <DropdownItem><StyledLink to="/circle-time">Circle Time</StyledLink></DropdownItem>
+            {/* <DropdownItem><StyledLink to="/volunteer">Volunteer</StyledLink></DropdownItem> */}
             <DropdownItem><StyledLink to="/donate">Donate</StyledLink></DropdownItem>
-            <DropdownItem><StyledLink to="/collaborate">Collaborate</StyledLink></DropdownItem>
+            {/* <DropdownItem><StyledLink to="/collaborate">Collaborate</StyledLink></DropdownItem> */}
           </DropdownMenu>
         </Dropdown>
         <Dropdown>
