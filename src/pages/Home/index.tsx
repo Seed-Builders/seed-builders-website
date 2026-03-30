@@ -29,98 +29,11 @@ const Home = ({ t }: { t: TFunction }) => {
           // {title: t("Button2"), linkTo: "https://seedbuilders.pushpress.com/landing/calendar"},
           // {title: t("Button3"), linkTo: "https://shop.seedbuilders.org"},
         ]}
-        icon="developer.svg"
+        icon="seeds.png"
         id="intro"
         cropImg={false}
       />
 
-
-      {/* <MiddleBlock
-        title={MiddleBlockContent.title}
-        content={MiddleBlockContent.text}
-        button={MiddleBlockContent.button}
-      /> */}
-
-      {/* <DropNav /> */}
-
-
-      <ContentBlock
-        direction="left"
-        title={t("Nutrition Title")}
-        content={t("Nutrition Text")}
-        // section={NutritionContent.section}
-        icon="graphs.svg"
-        id="nutrition"
-        cropImg={false}
-        recommendationHeader={t("We Recommend Nutrition")}
-        listItems={[
-          t("Eating TONS of seeds"),
-          t("Eating lots of low starch vegetables"),
-          t("Eating some fruit"),
-          t("Eating a small amount of starchy foods"),
-          t("Eating little to no added sugar"),
-          t("Decide on a daily target of calories and macronutrients"),
-        ]}
-        
-      />
-
-      <ContentBlock
-        direction="right"
-        title={t("Supplements Title")}
-        content={t("Supplements Text")}
-        icon="supplements.png"
-        id="supplements"
-        cropImg={true}
-        recommendationHeader={t("We Recommend Supplements")}
-        listItems={[
-          t("Vitamins..."),
-          t("Amino Acids..."),
-          t("Creatine..."),
-          t("DHA..."),
-          t("Sleep supplements like...")
-        ]}
-      />
-
-      <ContentBlock
-        direction="left"
-        title={t("Training Title")}
-        content={t("Training Text")}
-        icon="snatch-gold-guy.png"
-        id="training"
-        cropImg={true}
-        recommendationHeader={t("We Recommend Training")}
-        listItems={[
-          t("Olympic Weightlifting"),
-          t("CrossFit"),
-          t("Powerlifting"),
-          t("Yoga"),
-          t("Sports"),
-          t("Cables & Machines"),
-        ]}
-      />
-
-      <ContentBlock
-        direction="right"
-        title={t("Sleep Title")}
-        content={t("Sleep Text")}
-        icon="sleep.jpg"
-        id="sleep"
-        cropImg={true}
-        recommendationHeader={t("We Recommend Sleep")}
-        listItems={[
-          t("8 - 10 hours of sleep per day"),
-          t("Sleep in a cool, dark room"),
-          t("Keep a consistent schedule"),
-          t("Use breathing aids"),
-          t("Take advantage of naps if you can")
-        ]}
-      />
-
-      {/* <Contact
-        title={t("Contact Us")}
-        content={t("Send us a message and we'll get back to you soon!")}
-        id="contact"
-      /> */}
       <br />
       <br />
       <br />

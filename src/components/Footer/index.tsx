@@ -73,17 +73,32 @@ const Footer = ({ t }: { t: TFunction }) => {
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Get Involved")}</Title>
-              <LargeExternal href="https://calendly.com/seedbuilderjim/30min">{t("Book a remote coaching session")}</LargeExternal>
-              <LargeExternal href="https://seedbuilders.pushpress.com/landing/calendar">{t("Join a Fitness Class")}</LargeExternal>
-              
-              <span onClick={() => alert("Coaching certifications coming soon!")}>
+              {/* <LargeExternal href="https://calendly.com/seedbuilderjim/30min">{t("Book a remote coaching session")}</LargeExternal>
+              <LargeExternal href="https://seedbuilders.pushpress.com/landing/calendar">{t("Join a Fitness Class")}</LargeExternal> */}
 
-                <Large to="/">{t("Become a Certified Coach")}</Large>
+              <span>
+                <Large to="/circle-time">{"Circle Time"}</Large>
+              </span>
+              <span>
+                <Large to="/donate">{"Donate"}</Large>
               </span>
             </Col>
             <Col lg={6} md={6} sm={6} xs={6}>
-              <Title>{t("Shop")}</Title>
-              <LargeExternal href="https://shop.seedbuilders.org">{t("Seed Builders Official Store")}</LargeExternal>
+              <Title>{t("About")}</Title>
+              <span>
+                <Large to="/mission">{"Mission"}</Large>
+              </span>
+              <span>
+                <Large to="/story">{"Story"}</Large>
+              </span>
+              <span>
+                <Large to="/team">{"Team"}</Large>
+              </span>
+              <span>
+                <Large to="/impact">{"Impact"}</Large>
+              </span>
+
+              {/* <LargeExternal href="https://shop.seedbuilders.org">{t("Seed Builders Official Store")}</LargeExternal> */}
             </Col>
           </Row>
           <Row justify="space-between">
@@ -96,18 +111,12 @@ const Footer = ({ t }: { t: TFunction }) => {
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Core Principles")}</Title>
-              <CustomNavLinkSmall to="" onClick={() => scrollTo("nutrition")}>
-                <Span>{t("Nutrition")}</Span>
-              </CustomNavLinkSmall>
-              <CustomNavLinkSmall to="" onClick={() => scrollTo("supplements")}>
-                <Span>{t("Supplements")}</Span>
-              </CustomNavLinkSmall>
-              <CustomNavLinkSmall to="" onClick={() => scrollTo("training")}>
-                <Span>{t("Training")}</Span>
-              </CustomNavLinkSmall>
-              <CustomNavLinkSmall to="" onClick={() => scrollTo("sleep")}>
-                <Span>{t("Sleep")}</Span>
-              </CustomNavLinkSmall>
+              <Large to="/nutrition">{"Nutrition"}</Large>
+              <Large to="/supplements">{"Supplements"}</Large>
+              <Large to="/training">{"Training"}</Large>
+              <Large to="/sleep">{"Sleep"}</Large>
+              <Large to="/spirituality">{"Spirituality"}</Large>
+
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
               <Label htmlFor="select-lang">{t("Language")}</Label>

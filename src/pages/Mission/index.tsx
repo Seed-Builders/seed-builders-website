@@ -11,7 +11,7 @@ const CircleTime = ({ t }: { t: TFunction }) => {
         <h3>Mission</h3>
         <p>The purpose of the Seed Builders Foundation is to provide an inclusive community cultivating health, strength, and overall well-being.</p>
         <br/>
-        <p>We do this by promoting nutrient-dense, plant-based foods— especially seeds like hemp hearts, pumpkin seeds, and chia seeds— as foundational tools for wellness.</p>
+        <p>We do this by promoting seeds (such as hemp hearts, pumpkin seeds, and sunflower seeds) as foundational tools for wellness.</p>
         <br/>
         <br/>
     </Container>

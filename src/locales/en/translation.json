@@ -58,7 +58,7 @@
   "CrossFit": "Metabolic Conditioning Workouts",
   "Powerlifting": "Powerlifting",
   "Yoga": "Yoga",
-  "Sports": "Deportes",
+  "Sports": "Sports",
   "Cables & Machines": "Cables & Machines Training",
   "We Recommend Supplements": "We Recommend:",
   "Vitamins...": "Vitamins and minerals, especially the essential ones that difficult to get on a vegan diet: B12, Vitamin D, Calcium, and Iodine.",
@@ -73,6 +73,10 @@
   "Use breathing aids": "Use breathing aids (if needed).",
   "Take advantage of naps if you can": "Take advantage of naps if you can.",
   "IntroContent Title": "Seeds = Life",
-  "IntroContent Text": "Inspiring people everywhere to live their best lives with a seed-based diet.",
-  "Button1": "Book a Coaching Session"
+  "IntroContent Text": "Inspiring people everywhere to live their best lives on a seed-based diet.",
+  "Button1": "Book a Coaching Session",
+  
+  "Spirituality Title": "Spirituality",
+  "Spirituality Text": "Whether you belong to an organized religion or follow your own secular moral code, we at Seed Builders believe that some baseline level of spirituality contributes to top wellness.",
+  "We Recommend Spirituality": "We Recommend:"
 }
