@@ -30,7 +30,7 @@ const Nutrition = ({ t }: { t: TFunction }) => {
                 title={"Food Selection"}
                 content={"The Seeds Builders Pyramid is a conservative baseline of foundational foods and proportions your should eat them. Note that it is OK to sparingly mix in foods not mentioned in this foundational food pyramid."}
                 // section={NutritionContent.section}
-                icon="graphs.svg"
+                icon="Seed-Builders-Foundational-Foods-Pyramid.png"
                 id="nutrition"
                 cropImg={false}
                 recommendationHeader={t("We Recommend Nutrition")}
@@ -51,7 +51,7 @@ const Nutrition = ({ t }: { t: TFunction }) => {
                 title={"Amounts"}
                 content={"How much of eat food your eat is arguably just as important as what you eat."}
                 // section={NutritionContent.section}
-                icon="graphs.svg"
+                icon="amounts.png"
                 id="nutrition"
                 cropImg={false}
                 recommendationHeader={t("We Recommend Nutrition")}
@@ -71,7 +71,7 @@ const Nutrition = ({ t }: { t: TFunction }) => {
                 title={"Vitamins & Minerals"}
                 content={"In order to sustain overall general wellbeing and avoid diseases in the long run it is important to get within the recommended ranges for all known vitamins and minerals used by the human body."}
                 // section={NutritionContent.section}
-                icon="graphs.svg"
+                icon="supplements.png"
                 id="nutrition"
                 cropImg={false}
                 recommendationHeader={t("Important ones to be mindful of (especially for pure vegans):")}
