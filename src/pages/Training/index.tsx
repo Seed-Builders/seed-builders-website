@@ -33,7 +33,7 @@ const Training = ({ t }: { t: TFunction }) => {
         icon="jim-snatch.png"
         id="training"
         cropImg={true}
-        recommendationHeader={"The seed builders diet is great for:"}
+        recommendationHeader={"The Seed Builders diet is great for:"}
         listItems={[
           t("Collegiate or Professional Sports Athletes"),
           t("CrossFitters"),
