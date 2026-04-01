@@ -40,6 +40,7 @@ const Nutrition = ({ t }: { t: TFunction }) => {
                     t("Eating some fruit"),
                     t("Eating a small amount of starchy foods"),
                     t("Eating little to no added sugar"),
+                    "Notice how the foods we should eat the MOST happen to also be the lowest in terms of glycemic index and insulin affects.",
                     // t("Decide on a daily target of calories and macronutrients"),
                 ]}
 
@@ -74,11 +75,55 @@ const Nutrition = ({ t }: { t: TFunction }) => {
                 icon="supplements.png"
                 id="nutrition"
                 cropImg={false}
-                recommendationHeader={t("Important ones to be mindful of (especially for pure vegans):")}
+                recommendationHeader={t("Vitamins & Minerals and their core functions:")}
                 listItems={[
-                    "B12",
-                    "Calium",
-                    "Iodine",
+                    "Vitamin A: Vision (especially night vision), Immune function, Skin & cell growth",
+                    "Vitamin D: Calcium absorption, Bone strength, Immune regulation, Hormone-like functions",
+                    "Vitamin E: Antioxidant (protects cells from damage), Supports immune system",
+                    "Vitamin K: Blood clotting, Bone metabolism",
+
+                    "Vitamin C: Collagen production (skin, joints), Antioxidant, Immune support, Helps absorb iron",
+                    "Vitamin B1: (Thiamine), Converts carbs → energy, Nerve function",
+                    "Vitamin B2: (Riboflavin), Energy production, Supports skin & eyes",
+                    "Vitamin B3: (Niacin), Energy metabolism, DNA repair, Nervous system support",
+                    "Vitamin B5: (Pantothenic Acid), Hormone production, Fat metabolism",
+                    "Vitamin B6: (Pyridoxine), Amino acid metabolism, Neurotransmitter production",
+                    "Vitamin B7: (Biotin), Fat/carb metabolism, Hair, skin, nails",
+                    "Vitamin B9: (Folate), DNA synthesis, Red blood cell formation, Critical in pregnancy",
+                    "Vitamin B12: (Cobalamin), Nerve function, Red blood cell production, DNA synthesis",
+
+                    "Calcium: Bones & teeth, Muscle contraction, Nerve signaling",
+                    "Magnesium: 300+ enzyme reactions, Muscle & nerve function, Sleep & relaxation",
+                    "Potassium: Fluid balance, Muscle contractions (including heart), Blood pressure regulation",
+                    "Sodium: Fluid balance, Nerve impulses",
+                    "Phosphorus: Bone structure, Energy production (ATP)",
+                    "Sulfur: Protein structure, Detox pathways",
+
+                    "Iron: Oxygen transport (hemoglobin)",
+                    "Zinc: Immune function, Wound healing, Hormone production",
+                    "Iodine: Thyroid hormone production (metabolism control)",
+                    "Selenium: Antioxidant, Thyroid support",
+                    "Copper: Iron metabolism, Connective tissue formation",
+                    "Manganese: Bone formation, Metabolism",
+                    "Chromium: Blood sugar regulation (insulin sensitivity)",
+                    "Molybdenum: Enzyme function, Detoxification processes"
+                ]}
+
+            />
+
+            <ContentBlock
+                direction="right"
+                title={"Vitamins For Vegans"}
+                content={"You don't have to be vegan to follow the Seed Builders protocol, but if you are eating lots of seeds and non-starchy vegetables then these core ones you may still be getting too little or none."}
+                // section={NutritionContent.section}
+                icon="vegan.png"
+                id="nutrition"
+                cropImg={false}
+                recommendationHeader={""}
+                listItems={[
+                    "Iodine - easy to get from iodized salt.",
+                    "B12 - sublingual supplements are the easiest way to get it.",
+                    "Calcium - small amounts in seeds and coconut water. Supplements can help.",
                     // t("Eating a small amount of starchy foods"),
                     // t("Eating little to no added sugar"),
                     // t("Decide on a daily target of calories and macronutrients"),

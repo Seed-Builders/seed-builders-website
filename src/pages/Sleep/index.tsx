@@ -17,11 +17,12 @@ const Nutrition = ({ t }: { t: TFunction }) => {
         cropImg={true}
         recommendationHeader={t("We Recommend Sleep")}
         listItems={[
-          t("8 - 10 hours of sleep per day"),
-          t("Sleep in a cool, dark room"),
-          t("Keep a consistent schedule"),
-          t("Use breathing aids"),
-          t("Take advantage of naps if you can")
+          t("Aim for 8 - 10 hours of sleep per day."),
+          t("Sleep in a cool, dark room."),
+          t("Keep a consistent schedule."),
+          t("Use breathing aids."),
+          t("Take advantage of naps if you can."),
+          `Have a "wind down" routine.`
         ]}
       />
 
