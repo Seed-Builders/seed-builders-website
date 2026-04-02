@@ -26,7 +26,7 @@ const Nutrition = ({ t }: { t: TFunction }) => {
             />
 
             <ContentBlock
-                direction="left"
+                direction="right"
                 title={"Food Selection"}
                 content={"The Seeds Builders Pyramid is a conservative baseline of foundational foods and proportions your should eat them. Note that it is OK to sparingly mix in foods not mentioned in this foundational food pyramid."}
                 // section={NutritionContent.section}
@@ -41,6 +41,7 @@ const Nutrition = ({ t }: { t: TFunction }) => {
                     t("Eating a small amount of starchy foods"),
                     t("Eating little to no added sugar"),
                     "Notice how the foods we should eat the MOST happen to also be the lowest in terms of glycemic index and insulin affects.",
+                    "These foundational foods are what we recommend eating all day, every day– but it's perfectly fine to mix in other foods not mentioned here.",
                     // t("Decide on a daily target of calories and macronutrients"),
                 ]}
 
@@ -59,7 +60,7 @@ const Nutrition = ({ t }: { t: TFunction }) => {
                 listItems={[
                     t("Find your target for daily calory intake depending on your weight, activity level, goals, and general daily metabolic burn rate."),
                     t("Decide on your target macros (protein, carbs, and fat)."),
-                    t("Use tracker apps like Macros to keep yourself honest."),
+                    t("Use tracker apps like Macros make sure you're on track."),
                     // t("Eating a small amount of starchy foods"),
                     // t("Eating little to no added sugar"),
                     // t("Decide on a daily target of calories and macronutrients"),
@@ -114,7 +115,7 @@ const Nutrition = ({ t }: { t: TFunction }) => {
             <ContentBlock
                 direction="right"
                 title={"Vitamins For Vegans"}
-                content={"You don't have to be vegan to follow the Seed Builders protocol, but if you are eating lots of seeds and non-starchy vegetables then these core ones you may still be getting too little or none."}
+                content={"You don't have to be vegan to follow the Seed Builders protocol, but you should be especially mindful of these three that don't really occur naturally in the Seed Builders Foundational Foods Pyramid:"}
                 // section={NutritionContent.section}
                 icon="vegan.png"
                 id="nutrition"
