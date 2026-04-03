@@ -114,17 +114,17 @@ const Nutrition = ({ t }: { t: TFunction }) => {
 
             <ContentBlock
                 direction="right"
-                title={"Vitamins For Vegans"}
-                content={"You don't have to be vegan to follow the Seed Builders protocol, but you should be especially mindful of these three that don't really occur naturally in the Seed Builders Foundational Foods Pyramid:"}
+                title={"Ones To Watch Out For"}
+                content={`Let's assume you are eating a diet based on the Seed Builders foundation foods (big assumption!), but even if you are– you will probably need to supplement or eat outside of the foundational foods to hit your daily requirements for these three vitamins and minerals.`}
                 // section={NutritionContent.section}
-                icon="vegan.png"
+                icon="BIC-lighter-b12-iodine-calcium.jpg"
                 id="nutrition"
                 cropImg={false}
-                recommendationHeader={""}
+                recommendationHeader={''}
                 listItems={[
-                    "Iodine - easy to get from iodized salt.",
-                    "B12 - sublingual supplements are the easiest way to get it.",
-                    "Calcium - small amounts in seeds and coconut water. Supplements can help.",
+                   "Iodine - Get this from iodized salt, marine sources such as fish/seaweed, and/or animal sources such as dairy/eggs.",
+                   "B12 - Get this from either animal products (meat, dairy), fortified foods such as plant milks or cereal, and / or sublingual tablets or tinctures.",
+                   "Calcium - Get this from dairy, leafy greens, almonds, sood foods like tofu, fortified foods, and/or vitamin tablets.",
                     // t("Eating a small amount of starchy foods"),
                     // t("Eating little to no added sugar"),
                     // t("Decide on a daily target of calories and macronutrients"),

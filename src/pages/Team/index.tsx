@@ -11,7 +11,7 @@ const Team = ({ t }: { t: TFunction }) => {
       <ContentBlock
         direction="left"
         title={"Team"}
-        content={""}
+        content={"Coming soon..."}
         // section={NutritionContent.section}
         icon="graphs.svg"
         id="nutrition"

@@ -11,7 +11,7 @@ const Impact = ({ t }: { t: TFunction }) => {
       <ContentBlock
         direction="left"
         title={"Impact"}
-        content={""}
+        content={`So far we have positively impacted two people so far– Lasha Krikheli and Julio Anibal De La Cruz.`}
         // section={NutritionContent.section}
         icon="graphs.svg"
         id="nutrition"
