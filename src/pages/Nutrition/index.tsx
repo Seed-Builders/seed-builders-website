@@ -122,12 +122,13 @@ const Nutrition = ({ t }: { t: TFunction }) => {
                 cropImg={false}
                 recommendationHeader={''}
                 listItems={[
-                   "Iodine - Get this from iodized salt, marine sources such as fish/seaweed, and/or animal sources such as dairy/eggs.",
-                   "B12 - Get this from either animal products (meat, dairy), fortified foods such as plant milks or cereal, and / or sublingual tablets or tinctures.",
-                   "Calcium - Get this from dairy, leafy greens, almonds, sood foods like tofu, fortified foods, and/or vitamin tablets.",
-                    // t("Eating a small amount of starchy foods"),
-                    // t("Eating little to no added sugar"),
-                    // t("Decide on a daily target of calories and macronutrients"),
+                   "Iodine - You can easily get iodine from iodized salt. Some foods with it are marine sources such as fish/seaweed, and/or other animal sources such as dairy/eggs.",
+                   "B12 - You can get B12 from either animal products (meat, dairy), fortified foods such as plant milks or cereal, and / or sublingual tablets or tinctures.",
+                   "Calcium - Get Calcium from dairy, leafy greens, almonds, sood foods like tofu, fortified foods, and/or vitamin tablets.",
+                   "Vitamin D - Foods with Vitamin D are primarily fatty fish (salmon, tuna, sardines), fish liver oils, egg yolks, alongside fortified products like milk, orange juice, and cereals. UV-exposed mushrooms and fortified plant-based milks (soy, almond, oat) also offer good sources." 
+                   // t("Eating a small amount of starchy foods"),
+                   // t("Eating little to no added sugar"),
+                   // t("Decide on a daily target of calories and macronutrients"),
                 ]}
 
             />

@@ -2,9 +2,9 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 export const Nav = styled.nav`
-    background: #111;
+    background: white;
     padding: 1rem 1rem 1rem 1rem;
-    color: white;
+    color: #060606;
     left: 0;
 `;
 
@@ -39,7 +39,7 @@ export const DropdownMenu = styled.ul`
   z-index: 9999;
   top: 100%;
   left: 0;
-  background: #222;
+  background: #white;
   list-style: none;
   padding: 0.5rem 0;
   min-width: 160px;
@@ -60,29 +60,31 @@ left: 0;
 z-index: 9999;
 overflow: visible;
 
+a {
+  background: #white;
+}
+
   &:hover {
-    background: #333;
   }
 `;
 
 export const StyledLink = styled(NavLink)`
   display: block;
-  padding: 0.6rem 1rem;
-  color: #ccc;
+  margin: 0.1rem 0.3rem;
   text-decoration: none;
   transition: all 0.2s ease;
   top: 100%;
   left: 0;
   z-index: 9999;
   overflow: visible;
+  background: #white;
 
   &:hover {
-    background: #2a2a2a;
-    color: #00ffcc;
+    color: #rgb(69, 251, 84);
   }
 
   &.active {
-    color: #00ffcc;
+    color: rgb(69, 251, 84);
     font-weight: 600;
   }
 `;

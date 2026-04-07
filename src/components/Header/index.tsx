@@ -16,6 +16,7 @@ import {
   Span,
 } from "./styles";
 import DropNav from "../DropNav";
+import { StyledLink } from "../DropNav/styles";
 
 const Header = ({ t }: { t: TFunction }) => {
   const [visible, setVisibility] = useState(false);
@@ -76,18 +77,18 @@ const Header = ({ t }: { t: TFunction }) => {
   return (
     <HeaderSection>
       <Container>
-        <div style={{display: 'flex', justifyContent: "space-between", flexDirection: 'row'}}>
+        <div style={{ display: 'flex', justifyContent: "space-between", flexDirection: 'row' }}>
           <LogoContainer to="/" aria-label="homepage">
             {/* <SvgIcon src="SeedBuilders.svg" width="101px" height="101px" /> */}
             <Col>
-            <h5 style={{
-              fontSize: "30px", fontWeight: "600", textAlign: "center",
-              margin: "1.150rem 0 1rem 0", lineHeight: "1.4rem"
-            }}>The Seed Builders</h5>
-            <h5 style={{
-              fontSize: "30px", fontWeight: "600", textAlign: "center",
-              margin: "1.150rem 0 1rem 0", lineHeight: "1.4rem"
-            }}>Foundation</h5>
+              <h5 style={{
+                fontSize: "30px", fontWeight: "600", textAlign: "center",
+                margin: "1.150rem 0 1rem 0", lineHeight: "1.4rem"
+              }}>The Seed Builders</h5>
+              <h5 style={{
+                fontSize: "30px", fontWeight: "600", textAlign: "center",
+                margin: "1.150rem 0 1rem 0", lineHeight: "1.4rem"
+              }}>Foundation</h5>
             </Col>
           </LogoContainer>
           <NotHidden>
@@ -99,20 +100,39 @@ const Header = ({ t }: { t: TFunction }) => {
           </Burger>
         </div>
         <Drawer closable={false} open={visible} onClose={toggleButton}>
-          <Col style={{ marginBottom: "2.5rem" }}>
-            <Label onClick={toggleButton}>
-              <Col span={12}>
-                <Menu>Menu</Menu>
-              </Col>
-              <Col span={12}>
-                <Outline />
-              </Col>
-            </Label>
-          </Col>
-          <MenuItem />
-        </Drawer>
-      </Container>
-    </HeaderSection>
+          <Col style={{
+            margin: "1.5rem 0.5rem",
+            padding: "0.5rem",
+            fontSize: "1.3rem",
+            lineHeight: "2.6rem" 
+            }}>
+          <Label onClick={toggleButton}>
+            <Col span={12}>
+              <Menu>Menu</Menu>
+            </Col>
+            <Col span={12}>
+              <Outline />
+            </Col>
+          </Label>
+          <StyledLink onClick={toggleButton} to="/philosophy">Philosophy</StyledLink>
+          <StyledLink onClick={toggleButton} to="/nutrition">Nutrition</StyledLink>
+          <StyledLink onClick={toggleButton} to="/supplements">Supplements</StyledLink>
+          <StyledLink onClick={toggleButton} to="/training">Training</StyledLink>
+          <StyledLink onClick={toggleButton} to="/sleep">Sleep</StyledLink>
+          <StyledLink onClick={toggleButton} to="/spirituality">Spirituality</StyledLink>
+          <StyledLink onClick={toggleButton} to="/get-involved">Get Involved</StyledLink>
+          <StyledLink onClick={toggleButton} to="/circle-time">Circle Time</StyledLink>
+          <StyledLink onClick={toggleButton} to="/donate">Donate</StyledLink>
+          <StyledLink onClick={toggleButton} to="/about">About</StyledLink>
+          <StyledLink onClick={toggleButton} to="/mission">Mission</StyledLink>
+          <StyledLink onClick={toggleButton} to="/story">Story</StyledLink>
+          <StyledLink onClick={toggleButton} to="/team">Team</StyledLink>
+          <StyledLink onClick={toggleButton} to="/impact">Impact</StyledLink>
+        </Col>
+        <MenuItem />
+      </Drawer>
+    </Container>
+    </HeaderSection >
   );
 };
 
