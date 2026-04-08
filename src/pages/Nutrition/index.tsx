@@ -28,7 +28,7 @@ const Nutrition = ({ t }: { t: TFunction }) => {
             <ContentBlock
                 direction="right"
                 title={"Food Selection"}
-                content={"The Seeds Builders Pyramid is a conservative baseline of foundational foods and proportions your should eat them. Note that it is OK to sparingly mix in foods not mentioned in this foundational food pyramid."}
+                content={"The Seed Builders Foundational Foods Pyramid is a recommended baseline of foundational foods and proportions for eating them. Note that it's fine to mix in foods not mentioned in this foundational food pyramid."}
                 // section={NutritionContent.section}
                 icon="Seed-Builders-Foundational-Foods-Pyramid.png"
                 id="nutrition"

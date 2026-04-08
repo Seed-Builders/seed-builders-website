@@ -13,7 +13,7 @@ const Spirituality = ({ t }: { t: TFunction }) => {
         title={t("Spirituality Title")}
         content={t("Spirituality Text")}
         // section={NutritionContent.section}
-        icon="graphs.svg"
+        icon="spirituality.png"
         id="nutrition"
         cropImg={false}
         recommendationHeader={t("We Recommend Spirituality")}
