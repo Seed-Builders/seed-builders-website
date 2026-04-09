@@ -28,7 +28,7 @@ const Training = ({ t }: { t: TFunction }) => {
        <ContentBlock
         direction="left"
         title={"Advanced Training"}
-        content={"Seed Builders is for everyone– from people just trying to get a little healthier and a litter fitter to the world's most elite athletes."}
+        content={"Seed Builders is for everyone– from people just trying to get a little healthier and a little fitter to the world's most elite athletes."}
         icon="155-ohs-no-shirt.jpg"
         id="training"
         cropImg={true}
