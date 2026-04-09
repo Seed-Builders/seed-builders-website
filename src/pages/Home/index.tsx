@@ -25,7 +25,7 @@ const Home = ({ t }: { t: TFunction }) => {
         direction="right"
         title={t("IntroContent Title")}
         content={t("IntroContent Text")}
-        button={[{title: t("Button1"), linkTo: "https://calendly.com/seedbuilderjim/30min"}, 
+        button={[{title: t("Button1"), linkTo: "https://www.meetup.com/seed-builders/events"}, 
           // {title: t("Button2"), linkTo: "https://seedbuilders.pushpress.com/landing/calendar"},
           // {title: t("Button3"), linkTo: "https://shop.seedbuilders.org"},
         ]}

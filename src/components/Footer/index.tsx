@@ -73,7 +73,7 @@ const Footer = ({ t }: { t: TFunction }) => {
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Get Involved")}</Title>
-              {/* <LargeExternal href="https://calendly.com/seedbuilderjim/30min">{t("Book a remote coaching session")}</LargeExternal>
+              {/* <LargeExternal href="https://www.meetup.com/seed-builders/events">{t("Book a remote coaching session")}</LargeExternal>
               <LargeExternal href="https://seedbuilders.pushpress.com/landing/calendar">{t("Join a Fitness Class")}</LargeExternal> */}
 
               <span>
