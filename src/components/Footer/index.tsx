@@ -129,14 +129,14 @@ const Footer = ({ t }: { t: TFunction }) => {
                     height="30px"
                   />
                 </LanguageSwitch>
-                <LanguageSwitch onClick={() => handleChange("es")}>
+                {/* <LanguageSwitch onClick={() => handleChange("es")}>
                   <SvgIcon
                     src="spain.svg"
                     aria-label="homepage"
                     width="30px"
                     height="30px"
                   />
-                </LanguageSwitch>
+                </LanguageSwitch> */}
               </LanguageSwitchContainer>
             </Col>
           </Row>
