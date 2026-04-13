@@ -16,37 +16,14 @@ const Nutrition = ({ t }: { t: TFunction }) => {
                 icon="graphs.svg"
                 id="nutrition"
                 cropImg={false}
-                recommendationHeader={"Nutrition is about basically three things:"}
+                recommendationHeader={"Nutrition is primarily about these three things:"}
                 listItems={[
-                    "1) Food Selection",
-                    "2) Amounts",
+                    "1) Amounts",
+                    "2) Food Selection",
                     "3) Vitamins & Minerals",
                 ]}
 
             />
-
-            <ContentBlock
-                direction="right"
-                title={"Food Selection"}
-                content={"The Seed Builders Foundational Foods Pyramid is a recommended baseline of foundational foods and proportions for eating them. Note that it's fine to mix in foods not mentioned in this foundational food pyramid."}
-                // section={NutritionContent.section}
-                icon="Seed-Builders-Foundational-Foods-Pyramid.png"
-                id="nutrition"
-                cropImg={false}
-                recommendationHeader={t("We Recommend Nutrition")}
-                listItems={[
-                    t("Eating TONS of seeds"),
-                    t("Eating lots of low starch vegetables"),
-                    t("Eating some fruit"),
-                    t("Eating a small amount of starchy foods"),
-                    t("Eating little to no added sugar"),
-                    "Notice how the foods we should eat the MOST happen to also be the lowest in terms of glycemic index and insulin affects.",
-                    "These foundational foods are what we recommend eating all day, every day– but it's perfectly fine to mix in other foods not mentioned here.",
-                    // t("Decide on a daily target of calories and macronutrients"),
-                ]}
-
-            />
-
 
             <ContentBlock
                 direction="left"
@@ -63,6 +40,28 @@ const Nutrition = ({ t }: { t: TFunction }) => {
                     t("Use tracker apps like Macros make sure you're on track."),
                     // t("Eating a small amount of starchy foods"),
                     // t("Eating little to no added sugar"),
+                    // t("Decide on a daily target of calories and macronutrients"),
+                ]}
+
+            />
+
+            <ContentBlock
+                direction="right"
+                title={"Food Selection"}
+                content={"Here at Seed Builders we're biased towards a seed heavy diet. The Seed Builders Foundational Foods Pyramid is a recommended baseline of foundational foods and proportions for eating them. Note that it's fine to mix in foods not mentioned in this foundational food pyramid."}
+                // section={NutritionContent.section}
+                icon="Seed-Builders-Foundational-Foods-Pyramid.png"
+                id="nutrition"
+                cropImg={false}
+                recommendationHeader={t("We Recommend Nutrition")}
+                listItems={[
+                    t("Eating TONS of seeds"),
+                    t("Eating lots of low starch vegetables"),
+                    t("Eating some fruit"),
+                    t("Eating a small amount of starchy foods"),
+                    t("Eating little to no added sugar"),
+                    "Notice how the foods we should eat the MOST happen to also be the lowest in terms of glycemic index and insulin affects.",
+                    "These foundational foods are what we recommend eating all day, every day– but it's perfectly fine to mix in other foods not mentioned here.",
                     // t("Decide on a daily target of calories and macronutrients"),
                 ]}
 
