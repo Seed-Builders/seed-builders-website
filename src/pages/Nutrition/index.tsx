@@ -11,21 +11,34 @@ const Nutrition = ({ t }: { t: TFunction }) => {
             <ContentBlock
                 direction="left"
                 title={t("Nutrition Title")}
-                content={""}
+                content={"Nutrition is the science of how food and nutrients affect the body’s growth, energy, health, and overall functioning."}
                 // section={NutritionContent.section}
                 icon="graphs.svg"
                 id="nutrition"
                 cropImg={false}
-                recommendationHeader={"Nutrition is primarily about these three things:"}
+                recommendationHeader={"Nutrition science includes but is not limited to:"}
                 listItems={[
-                    "1) Amounts",
-                    "2) Food Selection",
-                    "3) Vitamins & Minerals",
+                    "Energy Balance & Metabolism",
+                    "Protein",
+                    "Carbohydrates",
+                    "Dietary Fats",
+                    "Vitamins & Minerals",
+                    "Hydration",
+                    "Nutrient Timing",
+                    "Supplements",
+                    "Alcohol",
+                    "The Role of Diet in Chronic Disease",
+                    "The Psychology of Weight control and Behavior Change",
+                    "Body Composition Testing",
+                    "Navigating the Real World",
+                    "Nutrition Hot Topics and Controversies",
+                    "Breaking Through Plateaus",
+                    "Recipes and Cooking Demonstrations",
                 ]}
 
             />
 
-            <ContentBlock
+            {/* <ContentBlock
                 direction="left"
                 title={"Amounts"}
                 content={"How much of eat food your eat is arguably just as important as what you eat."}
@@ -38,14 +51,15 @@ const Nutrition = ({ t }: { t: TFunction }) => {
                     t("Find your target for daily calory intake depending on your weight, activity level, goals, and general daily metabolic burn rate."),
                     t("Decide on your target macros (protein, carbs, and fat)."),
                     t("Use tracker apps like Macros make sure you're on track."),
+                    t("Be aware of your sources of getting each vitamin and mineral."),
                     // t("Eating a small amount of starchy foods"),
                     // t("Eating little to no added sugar"),
                     // t("Decide on a daily target of calories and macronutrients"),
                 ]}
 
-            />
+            /> */}
 
-            <ContentBlock
+            {/* <ContentBlock
                 direction="right"
                 title={"Food Selection"}
                 content={"Here at Seed Builders we're biased towards a seed heavy diet. The Seed Builders Foundational Foods Pyramid is a recommended baseline of foundational foods and proportions for eating them. Note that it's fine to mix in foods not mentioned in this foundational food pyramid."}
@@ -65,9 +79,9 @@ const Nutrition = ({ t }: { t: TFunction }) => {
                     // t("Decide on a daily target of calories and macronutrients"),
                 ]}
 
-            />
+            /> */}
 
-            <ContentBlock
+            {/* <ContentBlock
                 direction="left"
                 title={"Vitamins & Minerals"}
                 content={"In order to sustain overall general wellbeing and avoid diseases in the long run it is important to get within the recommended ranges for all known vitamins and minerals used by the human body."}
@@ -109,22 +123,24 @@ const Nutrition = ({ t }: { t: TFunction }) => {
                     "Molybdenum: Enzyme function, Detoxification processes"
                 ]}
 
-            />
+            /> */}
 
             <ContentBlock
                 direction="right"
-                title={"Ones To Watch Out For"}
-                content={`Let's assume you are eating a diet based on the Seed Builders foundation foods (big assumption!), but even if you are– you will probably need to supplement or eat outside of the foundational foods to hit your daily requirements for these three vitamins and minerals.`}
+                title={"Individual Foods"}
+                content={`Although we LOVE hemp hearts and other seeds, we technically cannot recommend any one individual food without knowing your medical history, prescriptions, the rest of your diet, etc. Consult with your doctor(s) and find foods you enjoy, that are minimally processed, and that together hit all your targets.`}
                 // section={NutritionContent.section}
-                icon="BIC-lighter-b12-iodine-calcium.jpg"
+                icon="seeds.png"
                 id="nutrition"
                 cropImg={false}
                 recommendationHeader={''}
                 listItems={[
-                   "Iodine - You can easily get iodine from iodized salt. Some foods with it are marine sources such as fish/seaweed, and/or other animal sources such as dairy/eggs.",
-                   "B12 - You can get B12 from either animal products (meat, dairy), fortified foods such as plant milks or cereal, and / or sublingual tablets or tinctures.",
-                   "Calcium - Get Calcium from dairy, leafy greens, almonds, sood foods like tofu, fortified foods, and/or vitamin tablets.",
-                   "Vitamin D - Foods with Vitamin D are primarily fatty fish (salmon, tuna, sardines), fish liver oils, egg yolks, alongside fortified products like milk, orange juice, and cereals. UV-exposed mushrooms and fortified plant-based milks (soy, almond, oat) also offer good sources." 
+                    // ""
+
+                //    "Iodine - You can easily get iodine from iodized salt. Some foods with it are marine sources such as fish/seaweed, and/or other animal sources such as dairy/eggs.",
+                //    "B12 - You can get B12 from either animal products (meat, dairy), fortified foods such as plant milks or cereal, and / or sublingual tablets or tinctures.",
+                //    "Calcium - Get Calcium from dairy, leafy greens, almonds, sood foods like tofu, fortified foods, and/or vitamin tablets.",
+                //    "Vitamin D - Foods with Vitamin D are primarily fatty fish (salmon, tuna, sardines), fish liver oils, egg yolks, alongside fortified products like milk, orange juice, and cereals. UV-exposed mushrooms and fortified plant-based milks (soy, almond, oat) also offer good sources." 
                    // t("Eating a small amount of starchy foods"),
                    // t("Eating little to no added sugar"),
                    // t("Decide on a daily target of calories and macronutrients"),
